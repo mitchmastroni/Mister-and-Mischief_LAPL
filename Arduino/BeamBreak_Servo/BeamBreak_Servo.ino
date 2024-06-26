@@ -58,7 +58,7 @@ void loop(){
   } 
   if (!sensorState && lastState) {
     Serial.println("BROKEN");
-    myservo.write(90);              // tell servo to go to position in variable 'pos'
+    myservo.write(45);              // tell servo to go to position in variable 'pos'
     delay(200);    
     myservo.write(0);              // tell servo to go to position in variable 'pos'
   }
